@@ -13,10 +13,10 @@ using System.Runtime.InteropServices;
                  + "333a40847ed8938194612ce84f7b3e6056ada43918444a883c7ef82583185a8f379281b62d6d2b"
                  + "2236679c")]
 [assembly: AssemblyTitle("MiscUtil")]
-[assembly: AssemblyDescription("Miscellaneous Utility Library")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MiscUtil")]
+[assembly: AssemblyCompany("inary-wrk")]
+[assembly: AssemblyProduct("inary.MiscUtil")]
 [assembly: AssemblyCopyright("Copyright ©  2006")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
