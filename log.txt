@@ -1,0 +1,194 @@
+2021-04-10 17:12:27.275 +03:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.201\
+2021-04-10 17:12:27.294 +03:00 [INF] Registered 1 extensions:
+	Default extension
+2021-04-10 17:12:28.294 +03:00 [INF] Initializing upgrade step Select an entrypoint
+2021-04-10 17:12:43.728 +03:00 [INF] Applying upgrade step Select an entrypoint
+2021-04-10 17:12:49.530 +03:00 [INF] Upgrade step Select an entrypoint applied successfully
+2021-04-10 17:12:50.883 +03:00 [INF] Initializing upgrade step Select project to upgrade
+2021-04-10 17:12:50.961 +03:00 [INF] Initializing upgrade step Back up project
+2021-04-10 17:12:59.505 +03:00 [INF] Skipping upgrade step Back up project
+2021-04-10 17:12:59.506 +03:00 [INF] Upgrade step Back up project skipped
+2021-04-10 17:13:00.690 +03:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-04-10 17:13:07.377 +03:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-04-10 17:13:07.379 +03:00 [INF] Converting project file format with try-convert, version 0.7.217901
+2021-04-10 17:13:08.928 +03:00 [INF] [try-convert] Conversion complete!
+2021-04-10 17:13:09.108 +03:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-04-10 17:13:10.068 +03:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-04-10 17:13:26.428 +03:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-04-10 17:13:28.728 +03:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.220602) needs added
+2021-04-10 17:13:28.734 +03:00 [INF] Packages to be addded:
+Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.220602
+2021-04-10 17:13:28.750 +03:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-04-10 17:13:28.755 +03:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.220602
+2021-04-10 17:13:29.831 +03:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-04-10 17:13:57.780 +03:00 [INF] Initializing upgrade step Update TFM
+2021-04-10 17:13:57.784 +03:00 [INF] TFM needs updated to netstandard2.0
+2021-04-10 17:15:00.069 +03:00 [ERR] Unknown selection: '11'
+2021-04-10 17:15:02.533 +03:00 [INF] Applying upgrade step Update TFM
+2021-04-10 17:15:03.617 +03:00 [INF] Updated TFM to netstandard2.0
+2021-04-10 17:15:03.618 +03:00 [INF] Upgrade step Update TFM applied successfully
+2021-04-10 17:15:04.771 +03:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-04-10 17:15:05.646 +03:00 [INF] No package updates needed
+2021-04-10 17:15:05.647 +03:00 [INF] Initializing upgrade step Add template files
+2021-04-10 17:15:05.673 +03:00 [INF] 0 expected template items needed
+2021-04-10 17:15:05.674 +03:00 [INF] Initializing upgrade step Update C# source
+2021-04-10 17:15:06.897 +03:00 [INF] Initializing upgrade step Move to next project
+2021-04-10 17:15:18.170 +03:00 [INF] Initializing upgrade step Select project to upgrade
+2021-04-10 17:15:18.171 +03:00 [INF] No projects need upgraded for entry point C:\Users\drain\Desktop\MiscUtil\MiscUtil\MiscUtil.csproj
+2021-04-10 17:15:18.171 +03:00 [INF] Initializing upgrade step Finalize upgrade
+2021-04-10 17:15:21.751 +03:00 [INF] Applying upgrade step Finalize upgrade
+2021-04-10 17:15:21.752 +03:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-04-10 17:15:22.565 +03:00 [INF] Upgrade has completed. Please review any changes.
+2021-04-10 17:15:22.566 +03:00 [INF] Saving upgrade progress file at C:\Users\drain\Desktop\MiscUtil\.upgrade-assistant
+2021-04-10 17:15:25.897 +03:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.201\
+2021-04-10 17:15:25.914 +03:00 [INF] Registered 1 extensions:
+	Default extension
+2021-04-10 17:15:27.045 +03:00 [INF] Loading upgrade progress file at C:\Users\drain\Desktop\MiscUtil\.upgrade-assistant
+2021-04-10 17:15:27.071 +03:00 [INF] Initializing upgrade step Select an entrypoint
+2021-04-10 17:15:37.449 +03:00 [INF] Applying upgrade step Select an entrypoint
+2021-04-10 17:15:44.092 +03:00 [INF] Upgrade step Select an entrypoint applied successfully
+2021-04-10 17:15:45.266 +03:00 [INF] Initializing upgrade step Select project to upgrade
+2021-04-10 17:15:46.297 +03:00 [INF] Applying upgrade step Select project to upgrade
+2021-04-10 17:15:59.067 +03:00 [INF] Upgrade step Select project to upgrade applied successfully
+2021-04-10 17:15:59.908 +03:00 [INF] Initializing upgrade step Back up project
+2021-04-10 17:16:00.786 +03:00 [INF] Applying upgrade step Back up project
+2021-04-10 17:16:05.027 +03:00 [INF] Backing up C:\Users\drain\Desktop\MiscUtil\MiscUtil.PerformanceTests to C:\Users\drain\Desktop\MiscUtil\MiscUtil.PerformanceTests.backup
+2021-04-10 17:16:05.056 +03:00 [INF] Project backed up to C:\Users\drain\Desktop\MiscUtil\MiscUtil.PerformanceTests.backup
+2021-04-10 17:16:05.056 +03:00 [INF] Upgrade step Back up project applied successfully
+2021-04-10 17:16:05.937 +03:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-04-10 17:16:07.419 +03:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-04-10 17:16:07.421 +03:00 [INF] Converting project file format with try-convert, version 0.7.217901
+2021-04-10 17:16:08.560 +03:00 [INF] [try-convert] Conversion complete!
+2021-04-10 17:16:08.734 +03:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-04-10 17:16:09.747 +03:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-04-10 17:16:09.783 +03:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-04-10 17:16:11.381 +03:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.220602) needs added
+2021-04-10 17:16:11.385 +03:00 [INF] Packages to be addded:
+Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.220602
+2021-04-10 17:16:13.196 +03:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-04-10 17:16:13.201 +03:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.220602
+2021-04-10 17:16:14.366 +03:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-04-10 17:16:14.403 +03:00 [INF] Initializing upgrade step Update TFM
+2021-04-10 17:16:14.461 +03:00 [INF] TFM needs updated to netstandard2.0
+2021-04-10 17:16:15.948 +03:00 [INF] Applying upgrade step Update TFM
+2021-04-10 17:16:17.080 +03:00 [INF] Updated TFM to netstandard2.0
+2021-04-10 17:16:17.081 +03:00 [INF] Upgrade step Update TFM applied successfully
+2021-04-10 17:16:17.875 +03:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-04-10 17:16:18.816 +03:00 [INF] No package updates needed
+2021-04-10 17:16:18.817 +03:00 [INF] Initializing upgrade step Add template files
+2021-04-10 17:16:18.842 +03:00 [INF] 0 expected template items needed
+2021-04-10 17:16:18.842 +03:00 [INF] Initializing upgrade step Update C# source
+2021-04-10 17:16:20.085 +03:00 [INF] Initializing upgrade step Move to next project
+2021-04-10 17:16:28.133 +03:00 [INF] Applying upgrade step Move to next project
+2021-04-10 17:16:28.134 +03:00 [INF] Upgrade step Move to next project applied successfully
+2021-04-10 17:16:29.149 +03:00 [INF] Initializing upgrade step Select project to upgrade
+2021-04-10 17:16:32.182 +03:00 [INF] Applying upgrade step Select project to upgrade
+2021-04-10 17:16:34.062 +03:00 [INF] Upgrade step Select project to upgrade applied successfully
+2021-04-10 17:16:35.308 +03:00 [INF] Initializing upgrade step Back up project
+2021-04-10 17:16:36.814 +03:00 [INF] Applying upgrade step Back up project
+2021-04-10 17:16:37.870 +03:00 [INF] Backing up C:\Users\drain\Desktop\MiscUtil\MiscUtil.UnitTests to C:\Users\drain\Desktop\MiscUtil\MiscUtil.UnitTests.backup
+2021-04-10 17:16:37.918 +03:00 [INF] Project backed up to C:\Users\drain\Desktop\MiscUtil\MiscUtil.UnitTests.backup
+2021-04-10 17:16:37.919 +03:00 [INF] Upgrade step Back up project applied successfully
+2021-04-10 17:16:40.180 +03:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-04-10 17:16:42.055 +03:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-04-10 17:16:42.055 +03:00 [INF] Converting project file format with try-convert, version 0.7.217901
+2021-04-10 17:16:43.442 +03:00 [INF] [try-convert] Conversion complete!
+2021-04-10 17:16:43.652 +03:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-04-10 17:16:44.627 +03:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-04-10 17:16:44.657 +03:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-04-10 17:16:46.132 +03:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.220602) needs added
+2021-04-10 17:16:46.155 +03:00 [INF] Packages to be addded:
+Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.220602
+2021-04-10 17:16:47.903 +03:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-04-10 17:16:47.904 +03:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.220602
+2021-04-10 17:16:49.199 +03:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-04-10 17:16:49.806 +03:00 [INF] Initializing upgrade step Update TFM
+2021-04-10 17:16:49.835 +03:00 [INF] TFM needs updated to net5.0-windows
+2021-04-10 17:16:51.496 +03:00 [INF] Applying upgrade step Update TFM
+2021-04-10 17:16:52.924 +03:00 [INF] Updated TFM to net5.0-windows
+2021-04-10 17:16:52.924 +03:00 [INF] Upgrade step Update TFM applied successfully
+2021-04-10 17:16:53.202 +03:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-04-10 17:16:55.554 +03:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-04-10 17:16:55.556 +03:00 [INF] Packages to be addded:
+Microsoft.Windows.Compatibility, Version=5.0.2
+2021-04-10 17:16:56.888 +03:00 [INF] Applying upgrade step Update NuGet Packages
+2021-04-10 17:16:56.889 +03:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-04-10 17:16:58.919 +03:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-04-10 17:16:59.711 +03:00 [INF] Initializing upgrade step Add template files
+2021-04-10 17:16:59.712 +03:00 [INF] 0 expected template items needed
+2021-04-10 17:16:59.712 +03:00 [INF] Initializing upgrade step Update C# source
+2021-04-10 17:17:00.371 +03:00 [INF] Initializing upgrade step Move to next project
+2021-04-10 17:17:01.801 +03:00 [INF] Applying upgrade step Move to next project
+2021-04-10 17:17:01.801 +03:00 [INF] Upgrade step Move to next project applied successfully
+2021-04-10 17:17:03.122 +03:00 [INF] Initializing upgrade step Select project to upgrade
+2021-04-10 17:17:05.649 +03:00 [INF] Applying upgrade step Select project to upgrade
+2021-04-10 17:17:10.954 +03:00 [INF] Upgrade step Select project to upgrade applied successfully
+2021-04-10 17:17:14.232 +03:00 [INF] Initializing upgrade step Back up project
+2021-04-10 17:17:14.233 +03:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-04-10 17:17:14.234 +03:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-04-10 17:17:15.366 +03:00 [INF] No package updates needed
+2021-04-10 17:17:15.367 +03:00 [INF] Initializing upgrade step Update TFM
+2021-04-10 17:17:15.420 +03:00 [INF] TFM needs updated to net5.0-windows
+2021-04-10 17:17:19.642 +03:00 [INF] Applying upgrade step Update TFM
+2021-04-10 17:17:21.315 +03:00 [INF] Updated TFM to net5.0-windows
+2021-04-10 17:17:21.315 +03:00 [INF] Upgrade step Update TFM applied successfully
+2021-04-10 17:17:22.137 +03:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-04-10 17:17:23.304 +03:00 [INF] No package updates needed
+2021-04-10 17:17:23.304 +03:00 [INF] Initializing upgrade step Add template files
+2021-04-10 17:17:23.305 +03:00 [INF] 0 expected template items needed
+2021-04-10 17:17:23.306 +03:00 [INF] Initializing upgrade step Update C# source
+2021-04-10 17:17:23.514 +03:00 [INF] Initializing upgrade step Move to next project
+2021-04-10 17:17:24.787 +03:00 [INF] Applying upgrade step Move to next project
+2021-04-10 17:17:24.788 +03:00 [INF] Upgrade step Move to next project applied successfully
+2021-04-10 17:17:25.854 +03:00 [INF] Initializing upgrade step Finalize upgrade
+2021-04-10 17:17:27.259 +03:00 [INF] Applying upgrade step Finalize upgrade
+2021-04-10 17:17:27.260 +03:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-04-10 17:17:28.161 +03:00 [INF] Upgrade has completed. Please review any changes.
+2021-04-10 17:17:28.162 +03:00 [INF] Saving upgrade progress file at C:\Users\drain\Desktop\MiscUtil\.upgrade-assistant
+2021-04-10 18:20:30.421 +03:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.201\
+2021-04-10 18:20:30.441 +03:00 [INF] Registered 1 extensions:
+	Default extension
+2021-04-10 18:20:31.784 +03:00 [INF] Loading upgrade progress file at C:\Users\drain\Desktop\MiscUtil\.upgrade-assistant
+2021-04-10 18:20:31.814 +03:00 [INF] Initializing upgrade step Select an entrypoint
+2021-04-10 18:20:34.729 +03:00 [INF] Applying upgrade step Select an entrypoint
+2021-04-10 18:20:39.637 +03:00 [INF] Upgrade step Select an entrypoint applied successfully
+2021-04-10 18:20:41.687 +03:00 [INF] Initializing upgrade step Select project to upgrade
+2021-04-10 18:20:42.976 +03:00 [INF] Applying upgrade step Select project to upgrade
+2021-04-10 18:20:45.608 +03:00 [INF] Upgrade step Select project to upgrade applied successfully
+2021-04-10 18:20:47.730 +03:00 [INF] Initializing upgrade step Back up project
+2021-04-10 18:20:47.733 +03:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-04-10 18:20:48.993 +03:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-04-10 18:20:48.995 +03:00 [INF] Converting project file format with try-convert, version 0.7.217901
+2021-04-10 18:20:50.502 +03:00 [INF] [try-convert] Conversion complete!
+2021-04-10 18:20:50.793 +03:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-04-10 18:20:51.876 +03:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-04-10 18:20:51.896 +03:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-04-10 18:20:54.771 +03:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.220602) needs added
+2021-04-10 18:20:54.775 +03:00 [INF] Packages to be addded:
+Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.220602
+2021-04-10 18:20:59.338 +03:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-04-10 18:20:59.343 +03:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.220602
+2021-04-10 18:21:00.735 +03:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-04-10 18:21:01.804 +03:00 [INF] Initializing upgrade step Update TFM
+2021-04-10 18:21:01.862 +03:00 [INF] TFM needs updated to net5.0-windows
+2021-04-10 18:21:03.050 +03:00 [INF] Applying upgrade step Update TFM
+2021-04-10 18:21:04.523 +03:00 [INF] Updated TFM to net5.0-windows
+2021-04-10 18:21:04.523 +03:00 [INF] Upgrade step Update TFM applied successfully
+2021-04-10 18:21:05.325 +03:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-04-10 18:21:07.710 +03:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-04-10 18:21:07.711 +03:00 [INF] Packages to be addded:
+Microsoft.Windows.Compatibility, Version=5.0.2
+2021-04-10 18:21:07.891 +03:00 [INF] Applying upgrade step Update NuGet Packages
+2021-04-10 18:21:07.892 +03:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-04-10 18:21:10.117 +03:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-04-10 18:21:10.278 +03:00 [INF] Initializing upgrade step Add template files
+2021-04-10 18:21:10.307 +03:00 [INF] 0 expected template items needed
+2021-04-10 18:21:10.308 +03:00 [INF] Initializing upgrade step Update C# source
+2021-04-10 18:21:12.115 +03:00 [INF] Initializing upgrade step Move to next project
+2021-04-10 18:21:15.092 +03:00 [INF] Applying upgrade step Move to next project
+2021-04-10 18:21:15.093 +03:00 [INF] Upgrade step Move to next project applied successfully
+2021-04-10 18:21:16.232 +03:00 [INF] Initializing upgrade step Finalize upgrade
+2021-04-10 18:21:18.740 +03:00 [INF] Applying upgrade step Finalize upgrade
+2021-04-10 18:21:18.741 +03:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-04-10 18:21:20.415 +03:00 [INF] Upgrade has completed. Please review any changes.
+2021-04-10 18:21:20.416 +03:00 [INF] Saving upgrade progress file at C:\Users\drain\Desktop\MiscUtil\.upgrade-assistant

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml" Background="grey" Title="">
+  <Nodes>
+    <Node Id="fed2e73c-a714-4848-9780-8a5f9cdf0e48" Label=".NET,Version=v5.0" Category="Target" Group="Expanded" />
+    <Node Id="c6685ff2-1c83-40b0-b253-5ba94e4a5164" Label="Rhino.Mocks: 99.58%, References: 100%" Category="High" PortabilityIndex="0.9957537154989384" />
+    <Node Id="524de384-22c0-4588-8a23-ef4dda7d4428" Label="nunit.framework: 100%, References: 100%" Category="VeryHigh" PortabilityIndex="1" />
+    <Node Id="5b4f1276-5316-487e-8056-d74f233f4e5c" Label="MiscUtil.PerformanceTests: 100%, References: 99.58%" Category="High" PortabilityIndex="1" />
+    <Node Id="974b3a47-da8c-4789-a69e-3c21212fe622" Label="MiscUtil: 99.78%, References: 100%" Category="High" PortabilityIndex="0.9978070175438597" Group="Collapsed" />
+    <Node Id="c1b9d989-9149-4f9b-9b9f-2ee6d22d99f7" Label="T:System.Runtime.Remoting.ObjRef" Category="Comment" />
+    <Node Id="30e96525-bd69-4fd2-8f4b-d837d92f498e" Label="MiscUtil.UnitTests: 99.22%, References: 99.71%" Category="High" PortabilityIndex="0.9922077922077922" Group="Collapsed" />
+    <Node Id="19bb59b0-a48e-4d1b-be3f-54ef3adfbfea" Label="T:System.Data.SqlClient.SqlCommand&#xA;T:System.Data.SqlClient.SqlConnection&#xA;T:System.Data.SqlClient.SqlTransaction" Category="Comment" />
+  </Nodes>
+  <Links>
+    <Link Source="fed2e73c-a714-4848-9780-8a5f9cdf0e48" Target="c6685ff2-1c83-40b0-b253-5ba94e4a5164" Category="Contains" />
+    <Link Source="fed2e73c-a714-4848-9780-8a5f9cdf0e48" Target="524de384-22c0-4588-8a23-ef4dda7d4428" Category="Contains" />
+    <Link Source="fed2e73c-a714-4848-9780-8a5f9cdf0e48" Target="5b4f1276-5316-487e-8056-d74f233f4e5c" Category="Contains" />
+    <Link Source="fed2e73c-a714-4848-9780-8a5f9cdf0e48" Target="974b3a47-da8c-4789-a69e-3c21212fe622" Category="Contains" />
+    <Link Source="974b3a47-da8c-4789-a69e-3c21212fe622" Target="c1b9d989-9149-4f9b-9b9f-2ee6d22d99f7" Category="Contains" />
+    <Link Source="fed2e73c-a714-4848-9780-8a5f9cdf0e48" Target="30e96525-bd69-4fd2-8f4b-d837d92f498e" Category="Contains" />
+    <Link Source="30e96525-bd69-4fd2-8f4b-d837d92f498e" Target="19bb59b0-a48e-4d1b-be3f-54ef3adfbfea" Category="Contains" />
+    <Link Source="5b4f1276-5316-487e-8056-d74f233f4e5c" Target="524de384-22c0-4588-8a23-ef4dda7d4428" />
+    <Link Source="5b4f1276-5316-487e-8056-d74f233f4e5c" Target="974b3a47-da8c-4789-a69e-3c21212fe622" />
+    <Link Source="5b4f1276-5316-487e-8056-d74f233f4e5c" Target="30e96525-bd69-4fd2-8f4b-d837d92f498e" />
+    <Link Source="30e96525-bd69-4fd2-8f4b-d837d92f498e" Target="524de384-22c0-4588-8a23-ef4dda7d4428" />
+    <Link Source="30e96525-bd69-4fd2-8f4b-d837d92f498e" Target="974b3a47-da8c-4789-a69e-3c21212fe622" />
+    <Link Source="30e96525-bd69-4fd2-8f4b-d837d92f498e" Target="c6685ff2-1c83-40b0-b253-5ba94e4a5164" />
+  </Links>
+  <Categories>
+    <Category Id="VeryHigh" Background="#009933" />
+    <Category Id="High" Background="#ffff66" />
+    <Category Id="Medium" Background="#ff9900" />
+    <Category Id="MediumLow" Background="#ff3300" />
+    <Category Id="Low" Background="#990000" />
+    <Category Id="Target" Background="white" />
+    <Category Id="Unresolved" Background="red" />
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" NavigationActionLabel="Comments" />
+  </Categories>
+  <Properties>
+    <Property Id="PortabilityIndex" Label="Portability Index" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>W
+            </DirectedGraph>
