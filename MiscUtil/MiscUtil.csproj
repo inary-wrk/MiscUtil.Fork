@@ -27,10 +27,7 @@
 		<Authors>inary-wrk</Authors>
 		<PackageProjectUrl>https://github.com/inary-wrk/MiscUtil.Fork</PackageProjectUrl>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-		<PackageDescription>
-			A port of Jon Skeet's MiscUtil r285 to .NET 5.
-			This product includes software developed by Jon Skeet and Marc Gravell. Contact skeet@pobox.com, or see http://www.pobox.com/~skeet/).
-		</PackageDescription>
+		<PackageDescription>A port of Jon Skeet's MiscUtil r285 to .NET 5. This product includes software developed by Jon Skeet and Marc Gravell. Contact skeet@pobox.com, or see http://www.pobox.com/~skeet/). </PackageDescription>
 		<PackageReleaseNotes>A port of Jon Skeet's MiscUtil r285 to .NET 5 using MS upgrade-assistent.</PackageReleaseNotes>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
